@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="formvalidator.css">
+   
+</head>
+<body>
+    
+<div class="control">
+    <form name="formvali" class="form" id="form">
+        <h2>Login</h2>
+    <div class="formContol">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your username">
+        <small>errorMSG</small>
+    </div>
+    <div class="formContol">
+        <label for="Password">Password</label>
+        <input type="password" id="Password" placeholder="Enter your password" >
+        <small>errorMSG</small>
+    </div>
+    <div class="formContol">
+        <label for="ConfirmPass">Confirm Password</label>
+        <input type="password" id="ConfirmPass" placeholder="Enter password again">
+        <small>errorMSG</small>
+    </div>
+    <div>
+        <button>Submit</button>
+    </div>
+    
+    </form>
+</div>
+<script src="formvalidator.js"></script>
+</body>
+</html>
