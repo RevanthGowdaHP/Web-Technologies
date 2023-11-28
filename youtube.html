@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="youtube.css">
+    <link rel="icon" href="youtubelogo (1).png">
+    <script src="https://kit.fontawesome.com/b8a4135e99.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <title>YouTube</title>
+    <style>
+        #youtubelogo {
+            margin-left: 63px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        header p {
+            position: absolute;
+            margin-left: 95px;
+            margin-top: -23px;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+        }
+
+        #dot {
+            color: #fdfcfc;
+            padding: 6px;
+            border: 1px solid #272727;
+            border-radius: 29px;
+            background-color: #272727;
+        }
+
+        #dot:hover {
+            background-color: #4e4c4c;
+        }
+
+        #join {
+            margin-top: -55px;
+            margin-left: 238px;
+        }
+
+        #addComment {
+            color: #ffffff;
+            border-bottom: 1px solid #efeded;
+            border: none;
+            background-color: #0f0f0f;
+            width: 843px;
+            outline: none;
+        }
+
+        #cancel {
+            background-color: #0f0f0f;
+            color: #ffffff;
+            border: 0.5px solid rgb(25, 25, 25);
+            border-radius: 143px;
+            margin-left: 680px;
+            cursor: pointer;
+        }
+
+        #cancel:hover {
+            background-color: #4e4c4c;
+        }
+
+        .subTitle {
+            color: #959595;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .mainHeadaside {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        .lonoImg {
+            border-radius: 30px;
+        }
+
+        .replies {
+            color: #3da3fa;
+        }
+
+        #video {
+            margin-right: 25px;
+            margin-left: -46px;
+            margin-top: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="mainDiv">
+            <div id="leftDiv">
+                <i class="fa-solid fa-bars" style="color: #ffffff;" id="bars"></i>
+                <img id="youtubelogo" src="youtubelogo (1).png" alt="youtubelogo" height="20" width="30">
+                <p>Premium<sup style="font-size:8px;">IN</sup></p>
+            </div>
+            <!-- Four values - border-radius: 15px 50px 30px 5px; 
+    (first value applies to top-left corner, second value applies to top-right corner, third value applies to bottom-right corner, and fourth value applies to bottom-left corner): -->
+            <div id="centerDiv">
+                <input type="text" placeholder="   Search" style="color: white; ">
+                <a href="https://www.searchenginejournal.com/alternative-search-engines/271409/" target="_blank"><i
+                        class="fa-solid fa-magnifying-glass" style="color: #ffffff;" id="magglass"></i></a>
+                <a href="https://online-voice-recorder.com/" target="_blank"><i class="fa-solid fa-microphone"
+                        style="color: #ffffff;" id="microphone"></i></a>
+            </div>
+            <div id="rightDiv">
+                <a href="https://www.steve.ai/youtube-video-maker" target="_blank"><i class="fa-solid fa-video" style="color: #ffffff;" id="video"></i></a>
+                <i class="fa-regular fa-bell" style="color: #ffffff;" id="bell"></i>
+                <img src="20231004_190312.jpg" alt="profile pic" height="28" width="28" id="profilepic">
+            </div>
+
+        </div>
+    </header>
+    <br><br>
+    <div
+        style="background-image: radial-gradient(rgb(0, 0, 0),rgb(40, 39, 39),black); margin-left: -9px; margin-right: -8px;">
+
+        <video height="500" width="910" controls id="mainVideo" style="border-radius: 10px;">
+            <source src="obsessed song video download - Google Search - Google Chrome 2023-08-29 22-37-18.mp4"
+                type="video/mp4">
+        </video>
+    </div>
+    <br><br>
+    <div class="videoBelow">
+        <p id="heading" style="color: white; font-family: Arial, Helvetica, sans-serif;">HM Contessa review - India's
+            Muscle Car - METAL BEINGS</p>
+        <img src="yt.jpeg" alt="iconForchanel" width="30" height="30" style="border-radius: 30px;">
+        <p id="channelName" style="color: #ffffff; font-family: Arial, Helvetica, sans-serif;">THE MOTOR LOVERS &nbsp;
+            <i class="fa-solid fa-circle-check" style="color: #ffffff;"></i><br><span style="font-size: 13px;">
+                <span style="color: #8c8b8b; font-size: 12px;">284k subscribers</span> </span>
+        </p>
+        <div id="join">
+            <button id="join1"><a href="https://www.x-workz.in/" target="_blank" style="text-decoration: none; color:white;">Join</a></button>
+            <button id="join2"><a href="https://www.youtube.com/@revanthgowda9260/about" target="_blank"
+                    style="text-decoration: none; color: #0f0f0f;">Subscribe</a></button>
+        </div>
+        <div class="rightSideButton">
+            <button type="submit"><i class="fa-solid fa-thumbs-up" style="color: #fff4f4;"></i></button>
+            <button type="submit"><i class="fa-solid fa-thumbs-down" style="color: #ffffff;"></i></button>
+            <button type="submit"><i class="fa-solid fa-share" style="color: #fffcfc;"></i>&nbsp;<a
+                    style="text-decoration: none;color: #fffcfc;"
+                    href="https://www.youtube.com/watch?v=Q_uWV_TWN3c">Share</a> </button>
+            <button type="submit"><i class="fa-solid fa-download" style="color: #ffffff;"></i> &nbsp;<a href="https://copper-elvina-80.tiiny.site" style="text-decoration: none; color: white;" target="_blank">Download</a></button>
+            <i class="fa-solid fa-ellipsis" id="dot"></i>
+        </div>
+        <br><br>
+        <br><br>
+        <div id="commentBox">
+            <p>2M views 3 months ago #pagani #supercars #zonda <br>
+                #pagani #zonda #supercars <i class="fa-solid fa-bars" style="color: #e20017;"></i> <br>
+
+                The creation of a man who crossed great oceans, <br>
+            </p>
+        </div>
+        <div style="color: #efeded; margin-top: 14px; margin-left: 10px;">4,099 Comments &nbsp; &nbsp; &nbsp; &nbsp;
+             <i class="fa-solid fa-arrow-down-wide-short" style="color: #ffffff;"></i> Sort By</div>
+        <br><br><br><br>
+        <div id="commentBox" style="border: none; background-color:#0f0f0f;">
+            <p id="comments">
+                <img class="lonoImg" src="Screenshot 2023-08-08 151215.png" alt="lono" height="30" width="30">&nbsp;
+                &nbsp;<input id="addComment" type="text" placeholder="Add a comment"><br>
+                <button type="submit" id="cancel" type="button">Cancel</button>
+                <button type="submit" style="background-color: #4e4c4c;color: #fffcfc;">Comment</button><br><br>
+                <img class="lonoImg" src="Screenshot 2023-08-08 151215.png" alt="lono" height="30" width="30">3.3K <br>3
+                months ago <br>
+                The Zonda is over 20 years old and still looks like a concept car. One of the greatest designs of the
+                modern era. <br>
+
+
+
+
+
+                <i class="fa-regular fa-thumbs-up" style="color: #ffffff;"></i> &nbsp;<i
+                    class="fa-regular fa-thumbs-down" style="color: #ffffff;"></i> &nbsp; Reply <br><br>
+
+
+                <span class="replies">24 replies <br></span><br><br>
+
+                <img class="lonoImg" src="Screenshot 2023-08-08 151215.png" alt="lono" height="30" width="30">3 months
+                ago <br>
+                “The harmony of 12 cylinders singing in unison is enough to move any heart” <br>
+
+                Words to live by <br>
+
+                989 <br>
+
+
+
+                <i class="fa-regular fa-thumbs-up" style="color: #ffffff;"></i> &nbsp;<i
+                    class="fa-regular fa-thumbs-down" style="color: #ffffff;"></i> &nbsp;Reply <br><br>
+
+
+                <span class="replies">13 replies <br></span><br><br>
+
+                <img class="lonoImg" src="Screenshot 2023-08-08 151215.png" alt="lono" height="30" width="30">2 months
+                ago <br>
+                As someone unaware of Horacio's history, this was an Amazinggg watch, and makes you respect Horacio and
+                his cars even more! Brilliant work as always Squidd! <br>
+
+                497 <br>
+
+
+
+                <i class="fa-regular fa-thumbs-up" style="color: #ffffff;"></i> &nbsp;<i
+                    class="fa-regular fa-thumbs-down" style="color: #ffffff;"></i> &nbsp;Reply <br><br>
+
+
+
+
+                <span class="replies">2 replies <br></span><br><br>
+
+                <img class="lonoImg" src="Screenshot 2023-08-08 151215.png" alt="lono" height="30" width="30">3 months
+                ago <br>
+                This documentary is itself a work of art ❤️ <br>
+
+                477 <br>
+
+
+                <i class="fa-regular fa-thumbs-up" style="color: #ffffff;"></i> &nbsp;<i
+                    class="fa-regular fa-thumbs-down" style="color: #ffffff;"></i> &nbsp;Reply <br><br>
+
+
+                <span class="replies">4 replies <br></span><br><br>
+
+                <img class="lonoImg" src="Screenshot 2023-08-08 151215.png" alt="lono" height="30" width="30">3 months
+                ago <br>
+                "Listening to feedback and altering the design": now that's how you keep your customers happy. I hope
+                his legacy carries on and more auto companies learn with him. <br>
+
+                246 <br>
+
+
+
+                <i class="fa-regular fa-thumbs-up" style="color: #ffffff;"></i> &nbsp;<i
+                    class="fa-regular fa-thumbs-down" style="color: #ffffff;"></i> &nbsp;Reply <br><br>
+
+
+                <span class="replies">3 replies <br></span><br><br>
+
+                <img class="lonoImg" src="Screenshot 2023-08-08 151215.png" alt="lono" height="30" width="30">1 month
+                ago <br>
+                Not only is the history behind Pagani awe inspiring, but this documentary handled the story with such
+                finesse. Structured well, emotional, you can't help but feel moved and inspired by Horacio and his
+                story. Now if only I was filthy rich and could afford one 😅
+                <br>
+                32 <br>
+
+
+
+                <i class="fa-regular fa-thumbs-up" style="color: #ffffff;"></i> &nbsp;<i
+                    class="fa-regular fa-thumbs-down" style="color: #ffffff;"></i> &nbsp;Reply <br>
+                <br>
+
+                <span class="replies">1 reply <br></span><br><br>
+                <br>
+                <img class="lonoImg" src="Screenshot 2023-08-08 151215.png" alt="lono" height="30" width="30">3 months
+                ago <br>
+                Crazy how we got Lamborghini from Ferrari and now we got Pagani from Lamborghini.
+                <br>
+                6.3K
+                <br>
+
+                <br>
+                <i class="fa-regular fa-thumbs-up" style="color: #ffffff;"></i> &nbsp;<i
+                    class="fa-regular fa-thumbs-down" style="color: #ffffff;"></i> &nbsp; Reply<br>
+                <br>
+
+                <span class="replies">183 replies</span><br><br>
+                <br>
+                <img class="lonoImg" src="Screenshot 2023-08-08 151215.png" alt="lono" height="30" width="30">3 months
+                ago <br>
+                If I had to pick a hero, it would be Horacio. What an incredible person who will be immortalized by an
+                incredible manufacturer. One of my favorite quotes he said in an interview is: “Every day I look at the
+                way I walked to avoid repeating the same mistakes. If I’m wrong, I did it with the head, not the heart.”
+                <br>
+                Great video, earned a sub from me
+                <br>
+                128
+                <br>
+
+                <br>
+                <i class="fa-regular fa-thumbs-up" style="color: #ffffff;"></i> &nbsp;<i
+                    class="fa-regular fa-thumbs-down" style="color: #ffffff;"></i> &nbsp;Reply<br>
+                <br>
+                <span class="replies">1 reply</span><br><br>
+                <br>
+                <img class="lonoImg" src="Screenshot 2023-08-08 151215.png" alt="lono" height="30" width="30">1 month
+                ago <br>
+                I don’t usually comment on videos but thank you for putting so much effort into these documentaries.
+                Every video you’ve made has not only been extremely informative on the history of the industry, but is
+                so impactful and moving it never fails to bring me to tears of absolute awe. This is what I live for,
+                why I’m into cars the way I am, why I am who I am. It feels like you’re speaking to my soul with every
+                video. I cannot thank you enough for the extensive work you do on every documentary. Keep up the
+                phenomenal work, thank you
+                <br>
+
+                <br>
+                <i class="fa-regular fa-thumbs-up" style="color: #ffffff;"></i> &nbsp;<i
+                    class="fa-regular fa-thumbs-down" style="color: #ffffff;"></i> &nbsp;Reply<br><br>
+                <span class="replies">12 replies</span><br><br><br>
+            </p>
+
+        </div>
+
+    </div>
+    <div id="asideButtons">
+        <button id="asideButtons1">All</button>
+        <button class="asideButtons2">Movies</button>
+        <button class="asideButtons2">From Hombale Films</button>
+        <button class="asideButtons2">Prashanth Neel</button>
+        <button class="asideButtons3" style="border-radius: 50px;">&raquo;</button>
+
+    </div>
+    <div id="asideVideo">
+        <br>
+        <div class="asideContent">
+            <iframe width="155" height="100" src="https://www.youtube.com/embed/cDPhdmfz_WY?si=A24bgCcjUUk1a1Rb"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p class="mainHeadaside"> The World's Most Accurate Tribute Builds ROAR To Life! <br>
+                Just Driven <br>
+                <span class="subTitle"> Mzaalo Cineplex <i class="fa-solid fa-circle-check"
+                        style="color: #ffffff;"></i><br>
+                    10M views 1 year ago
+            </p></span>
+        </div>
+        <br>
+        <div class="asideContent">
+            <iframe width="155" height="100" src="https://www.youtube.com/embed/wKDReWHoiQM?si=cpNZqx_92oDdE04H"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p class="mainHeadaside">RWD RAllY Dallas (HD) <br>| Rajin 4k <br> |
+                #cars <br>
+                <span class="subTitle"> Schwaa Films <i class="fa-solid fa-circle-check"
+                        style="color: #ffffff;"></i><br>
+                    2M views 5 year ago
+            </p></span>
+        </div>
+        <br>
+        <div class="asideContent">
+            <iframe width="155" height="100" src="https://www.youtube.com/embed/ahdCJUqb254?si=wkX3WsKI0Anvpc8s"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p class="mainHeadaside">$!50M Hyper car Garage hidden in Croatia <br>| jess Anoy,Tony shar, nora <br> |
+                $16M Bugati La voire <br>|
+
+                <span class="subTitle"> TFJJ <i class="fa-solid fa-circle-check" style="color: #ffffff;"></i><br>
+                    567k views 5 months ago
+            </p></span>
+        </div>
+        <br>
+        <div class="asideContent">
+            <iframe width="155" height="100" src="https://www.youtube.com/embed/W6v9lHA6Bcw?si=fCislrvAbC0WXdB5"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p class="mainHeadaside">Car that saved lamborgini from Bankrupt <br>| Lamborgini Aventoador <br>|
+                #cars <br>
+                <span class="subTitle">Indian car guy <i class="fa-solid fa-circle-check"
+                        style="color: #ffffff;"></i><br>
+                    271l views 1 month ago
+            </p></span>
+        </div>
+        <br>
+        <div class="asideContent">
+            <iframe width="155" height="100" src="https://www.youtube.com/embed/izbLyTcuqjk?si=bpGe7PWK0mb6ICpV"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p class="mainHeadaside"> BRABUS - Mercedes tuning from Germany <br>| Full tuning <br> |
+                #cars <br>
+                <span class="subTitle"> Welt Documentry <i class="fa-solid fa-circle-check"
+                        style="color: #ffffff;"></i><br>
+                    14M views 3 year ago
+            </p></span>
+        </div>
+        <br>
+        <div class="asideContent">
+            <iframe width="155" height="100" src="https://www.youtube.com/embed/IcAV5qiko8M?si=Bi2VdO-X5scoGMuK"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p class="mainHeadaside">Building a modren day fast and furious car<br>| 1994 toyota Supra <br> |
+                #cars <br>
+                <span class="subTitle">Throtle <i class="fa-solid fa-circle-check" style="color: #ffffff;"></i><br>
+                    2.1M views 7 months ago
+            </p></span>
+        </div>
+        <br>
+        <div class="asideContent">
+            <iframe width="155" height="100" src="https://www.youtube.com/embed/JTso18oEJKI?si=z5Gb5BIfcOQ4auAy"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p class="mainHeadaside">The Quil car show - Monterey car Week 2023 <br>|SuperCars show <br>
+                #cars <br>
+                <span class="subTitle"> Sarkis Sarkiov <i class="fa-solid fa-circle-check"
+                        style="color: #ffffff;"></i><br>
+                    12k views 1 month ago
+            </p></span>
+        </div>
+        <br>
+        <div class="asideContent">
+            <iframe width="155" height="100" src="https://www.youtube.com/embed/qK6M2zpe7ZI?si=yyDuBf-6ptzRPcnY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p class="mainHeadaside">How Mitsubishi throw away the dynasty<br>|Japan <br>
+                #cars <br>
+                <span class="subTitle"> The SUIDD <i class="fa-solid fa-circle-check" style="color: #ffffff;"></i> <br>
+                    1.8M views 1 year ago
+            </p></span>
+        </div>
+        <br>
+        <div class="asideContent">
+            <iframe width="155" height="100" src="https://www.youtube.com/embed/qK6M2zpe7ZI?si=yyDuBf-6ptzRPcnY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p class="mainHeadaside">F1 drivers and there crazy car collections <br>|Lewis Hamilton <br>
+                #cars <br>
+                <span class="subTitle"> Supercar Blondie <i class="fa-solid fa-circle-check"
+                        style="color: #ffffff;"></i><br>
+                    2.5M views 1 year ago
+            </p></span>
+        </div>
+        <br>
+        <div class="asideContent">
+            <iframe width="155" height="100" src="https://www.youtube.com/embed/qK6M2zpe7ZI?si=yyDuBf-6ptzRPcnY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p class="mainHeadaside">Porsche Cayman S 2007 6,600 miles - Full Walkaround<br>| Saif Ali Khan, Vir Das,
+                Kunal Khemu <br> | Best Zombie Movie <br>|
+                #cars <br>
+                <span class="subTitle"> Motivation car club <i class="fa-solid fa-circle-check"
+                        style="color: #ffffff;"></i> <br>
+                    63k views 5 days ago
+            </p></span>
+        </div>
+    </div>
+</body>
+
+</html>

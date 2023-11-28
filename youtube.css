@@ -1,0 +1,238 @@
+body {
+
+    background-color: rgb(15 15 15);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    background-color: rgb(15 15 15);
+    position: fixed;
+    height: 51px;
+    width: 1518px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -6px;
+
+}
+
+#centerDiv {
+    position: absolute;
+    margin-left: 474px;
+    margin-top: -32px;
+    
+
+}
+
+#rightDiv {
+    position: absolute;
+    margin-left: 1423px;
+    margin-top: -24px;
+    
+}
+
+#bars {
+    position: absolute;
+    margin-left: 19px;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#bars:hover {
+    background-color: #404040;
+} 
+
+#centerDiv input {
+    border: 0.5px solid rgb(45 45 45);
+    border-radius: 23px;
+    height: 33px;
+    width: 533px;
+    font-size: 14px;
+    background-color: rgb(18 18 18);
+}
+
+#magglass {
+    position: absolute;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-left: -44px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#magglass:hover {
+    background-color: #404040;
+}
+
+#microphone {
+    margin-left: 19px;
+    position: absolute;
+    margin-top: 1px;
+    border: 0.5px solid rgb(25, 25, 25);
+    border-radius: 143px;
+    padding: 9px;
+    background-color: #272727;
+    cursor: pointer;
+}
+
+#microphone:hover {
+    background-color: #404040;
+}
+
+#bell {
+    position: absolute;
+    margin-left: -7px;
+    margin-top: -5px;
+    padding: 9px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#bell:hover {
+    background-color: #404040;
+}
+
+#profilepic {
+    position: absolute;
+    border-radius: 30px;
+    margin-left: 38px;
+    margin-top: -2px;
+    cursor: pointer;
+}
+
+#asideVideo {
+    margin-left: 1041px;
+    margin-top: -1px;
+}
+.asideContent p{
+    margin-left: 167px;
+    margin-top: -96px;
+    color: white;
+    font-size: small;
+
+}
+
+#asideVideo iframe {
+    border-radius: 10px;
+}
+
+#mainVideo {
+    margin-left: 106px;
+    margin-top: 30px;
+}
+
+#asideButtons {
+    margin-left: 1039px;
+    margin-top: -2619px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#asideButtons button {
+    border-radius: 8px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#asideButtons1 {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+#asideButtons1:hover {
+    background-color: rgb(198, 199, 200);
+}
+
+.asideButtons2 {
+    background-color: #272727;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.asideButtons2:hover {
+    background-color: #404040;
+}
+
+.asideButtons3 {
+    color: white;
+    border: none;
+    padding: 5px;
+    background-color: #0a0a0a;
+    cursor: pointer;
+}
+
+.asideButtons3:hover {
+    background-color: #5f5f5f;
+}
+.videoBelow{
+    margin-right: 489px;
+    margin-left: 97px;
+}
+.videoBelow button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px 12px 8px 12px;   
+}
+.videoBelow button:hover{
+    background-color: #404040;
+}
+.videoBelow #heading{
+    margin-top: -26px;
+    font-size: 18px;
+}
+.videoBelow #channelName{
+    margin-top: -36px;
+    margin-left: 41px;
+    font-size: 14px;
+}
+.rightSideButton{
+    margin-top: -34px;
+    margin-left: 607px;
+}
+.rightSideButton button{
+  background-color: #272727;
+  color: white;
+}
+#commentBox{
+    border: 1px solid #6a6969;
+    border-radius: 5px;
+    width: 912px;
+    margin-top: -54px;
+    background-color: #272727;  
+}
+#commentBox:hover{
+    background-color: #404040;
+}
+#commentBox p{
+    color: white;
+    margin-left: 16px;
+}
+#commentBox #comments{
+    margin-left: 58px;
+}
+#join1 {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0.4px solid rgb(99, 98, 98);
+    cursor: pointer;
+}
+#join1:hover{
+    background-color:  #4e4c4c;
+}
+
+#join2 {
+    background-color: white;
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#join2:hover{
+    background-color: #d7cfcf;
+} 
