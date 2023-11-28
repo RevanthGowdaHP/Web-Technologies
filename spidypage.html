@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spidy Universe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/b8a4135e99.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel="icon" href="spdylogo.png">
+    <style>
+        body {
+            background-color: #282828;
+
+        }
+
+        span {
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top"
+        style=" margin-right: 40px; border-radius: 10px; width: 100%;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-spider" style="color: #ff0000;"></i><span
+                    style="color: #e53451;">SPIDY</span> <span style="color: #3b64ab;">UNIVERSE</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="spidypage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html"> Cart</a>
+
+                    </li>
+
+
+
+                    <form class="d-flex" role="search" style="margin-right: 193px;">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                            style="width: 520px;">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+
+                    </form>
+
+                    
+                    <li class="nav-item dropdown">
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sign Up
+                        </a>
+                        <form class="dropdown-menu p-4">
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail2"
+                                placeholder="email@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleDropdownFormPassword2"
+                                placeholder="Password">
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                                    <label class="form-check-label" for="dropdownCheck2">
+                                        Remember me
+                                    </label>
+                                </div>
+                            </div>
+                            <a class="btn btn-primary" href="login.html" role="button">Sign in</a>
+                        </form>
+                    </div>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="wishAndTrack.html"><i class="fa-regular fa-heart" style="color: #324971;"></i>
+                        Wishlist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wishAndTrack.html"><i class="fa-solid fa-truck-fast"
+                            style="color: #3b68b5;"></i> Track Order</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <ul class="nav nav-pills fixed-top" style="margin-top: 56px; border: 1px solid #282828; background-color: #282828;">
+
+        <li class="nav-item dropdown" style="margin-left: 549px;">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
+                style="color: rgb(150, 150, 150);">Kids</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Hulk</a></li>
+                <li><a class="dropdown-item" href="#">Caption America</a></li>
+                <li><a class="dropdown-item" href="#">Bucky</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Toys</a></li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
+                style="color: rgb(150, 150, 150);">Teenager</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Thor</a></li>
+                <li><a class="dropdown-item" href="#">Groot</a></li>
+                <li><a class="dropdown-item" href="#">Gamora</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Space Shuttle</a></li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
+                style="color:rgb(150, 150, 150);">Elder</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Iron Man</a></li>
+                <li><a class="dropdown-item" href="#">Bat Man</a></li>
+                <li><a class="dropdown-item" href="#">Spider Man</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Suits</a></li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
+                style="color: rgb(150, 150, 150);">Elder Kid</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">spider man (Tom Holland)</a></li>
+                <li><a class="dropdown-item" href="#">Spider Man (Andrew Garfield)</a></li>
+                <li><a class="dropdown-item" href="#">SPIDER MAN (Tobey Maguire)</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Movies Link</a></li>
+            </ul>
+        </li>
+
+    </ul>
+    <br><br>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"
+        style="margin-top: 34px; ">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="icecream.jpg" class="d-block w-80" alt="..." height="400" width=" 1400" style="    margin-left: 58px;
+        border-radius: 29px;">
+                <div class="carousel-caption d-none d-md-block" style="text-align: left;">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="copy1.jpg" class="d-block w-80" alt="..." height="400" width=" 1400" style="    margin-left: 58px;
+        border-radius: 29px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="copy2.jpg" class="d-block w-80" alt="..." height="400" width=" 1400" style="    margin-left: 58px;
+        border-radius: 29px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nerf</h5>
+                        <p class="card-text">Nerf Alpha Strike Slinger SD-1 Single-Fire Dart Blaster...
+                            4.3(1,788)
+                            ₹269 ₹29910% off
+                            Buy 2 items, save extra 5%</p>
+                        <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nerf</h5>
+                        <p class="card-text">Nerf Alpha Strike Mantis LR-1 Toy Blaster with Targetin...
+                            4.5(2,491)
+                            ₹519 ₹1,49965% off
+                            Free delivery
+                            Hot Deal</p>
+                        <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Super Hero Mask</h5>
+                        <p class="card-text">SSJMart Avengers Hero Action Figure of 5 Super Heroes C...
+                            4(2,035)
+                            ₹289 ₹99871% off
+                            Free delivery
+                            Only few left</p>
+                        <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="11.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Super Hero Mask</h5>
+                        <p class="card-text">SSJMart Avengers Hero Action Figure of 5 Super Heroes C...
+                            4(2,035)
+                            ₹289 ₹99871% off
+                            Free delivery
+                            Only few left</p>
+                        <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="12.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Super Hero Mask</h5>
+                        <p class="card-text">SSJMart Avengers Hero Action Figure of 5 Super Heroes C...
+                            4(2,035)
+                            ₹289 ₹99871% off
+                            Free delivery
+                            Only few left</p>
+                        <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="13.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Super Hero Mask</h5>
+                        <p class="card-text">SSJMart Avengers Hero Action Figure of 5 Super Heroes C...
+                            4(2,035)
+                            ₹289 ₹99871% off
+                            Free delivery
+                            Only few left</p>
+                        <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="14.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Super Hero Mask</h5>
+                        <p class="card-text">SSJMart Avengers Hero Action Figure of 5 Super Heroes C...
+                            4(2,035)
+                            ₹289 ₹99871% off
+                            Free delivery
+                            Only few left</p>
+                        <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="15.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Super Hero Mask</h5>
+                        <p class="card-text">SSJMart Avengers Hero Action Figure of 5 Super Heroes C...
+                            4(2,035)
+                            ₹289 ₹99871% off
+                            Free delivery
+                            Only few left</p>
+                        <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Aganta Spiderman Gloves with Disc Launcher web shooter ...
+                            4.3(8)
+                            ₹299 ₹50040% off
+                            Free delivery
+                            Hot Deal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">ojus fashion hub Batman,Iron,spider,Hulk,Captainamerica...
+
+                            ₹345 ₹99965% off
+                            Free delivery
+                            Only few left</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="17.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">StarsOne Spiderman Gloves with Disc Launcher web shoote...
+                            3.5(2,523)
+                            ₹299 ₹99469% off
+                            Free delivery
+                            Only few left</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="16.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text" style="text-align: center;">KAMMATESWARA Super Hero Action Figure Toy Set of 10 Act...
+                            4.5(39) 
+                            ₹599 ₹1,19950% off
+                            Free delivery
+                            Only few left</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="7.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">EZELO Ultimate Spiderman Gloves With Disc Launcher For ...
+                            3.3(12)
+                            ₹299 ₹50040% off
+                            Free delivery
+                            Only few left</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="19.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">chract spider man
+                            3.7(168)
+                            ₹210 ₹54961% off
+                            Daily Saver</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div style="margin-left: 1400px;">
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Feedback</button>
+        <br><br>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Feedback Form</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">User Name</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="    border: 1px solid gainsboro;
+height: 500px;
+width: 1500px;
+border-radius: 20px;
+margin-left: 10px;">
+        <p>good</p>
+    </div>
+
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
