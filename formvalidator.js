@@ -12,7 +12,7 @@ function showError(input, msg){
 
 function showSuccess(input){
     const inpuMsg = input.parentElement;
-    inpuMsg.className = "formControl success";
+    inpuMsg.className = "formContol success";
 }
 
 function checkUsername(){
